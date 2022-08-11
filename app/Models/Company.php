@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Company extends Model
 {
     use HasFactory;
+
+    /**
+     * Get the comments for the blog post.
+     */
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
 }
