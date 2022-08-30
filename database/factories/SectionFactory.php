@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Company>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Section>
  */
-class CompanyFactory extends Factory
+class SectionFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,11 +17,8 @@ class CompanyFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => 1,
             'name' => fake()->name(),
-            'slug' => fake()->name(),
-            'social_name' => fake()->name(),
-            'phone' => fake()->phoneNumber()
+            'description' => fake()->realTextBetween($minNbChars = 100, $maxNbChars = 255, $indexSize = 2),
         ];
     }
 }

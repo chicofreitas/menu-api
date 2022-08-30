@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Product>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Addon>
  */
-class ProductFactory extends Factory
+class AddonFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,10 +17,9 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            'company_id' => 1,
             'name' => fake()->name(),
-            'price' => fake()->randomFloat(2, 2, 50),
             'description' => fake()->realTextBetween($minNbChars = 100, $maxNbChars = 255, $indexSize = 2),
+            'image_url' => 'https://icons.iconarchive.com/icons/michael/coke-pepsi/256/Coca-Cola-Can-icon.png',
         ];
     }
 }

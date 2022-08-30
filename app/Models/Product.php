@@ -16,4 +16,17 @@ class Product extends Model
     {
         return $this->belongsTo(Company::class);
     }
+
+    /**
+     * Get the category that owns the product.
+     */
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    public function sections()
+    {
+        return $this->hasMany(Section::class);
+    }
 }
