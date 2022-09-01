@@ -16,4 +16,12 @@ class Category extends Model
     {
         return $this->hasMany(Product::class);
     }
+
+    /**
+     * Get the category that owns the product.
+     */
+    public function company()
+    {
+        return $this->belongsTo(Company::class);
+    }
 }

@@ -36,7 +36,7 @@ class CompanyProductsController extends Controller
      */
     public function show($id)
     {
-        $company = Company::find($id)->with('products.category')->get();
+        $company = Company::find($id)->with('categories.products')->get();
 
         return response()->json($company);
     }

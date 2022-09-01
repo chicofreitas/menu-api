@@ -23,9 +23,9 @@ class DatabaseSeeder extends Seeder
             'slug' => 'nice-lunch',
         ])->create();
         
-        $category_drinks = \App\Models\Category::factory()->state(['name' => 'Refrigerantes'])->create();
-        $category_simple_dishes = \App\Models\Category::factory()->state(['name' => 'Pratos Feitos'])->create();
-        $category_dishes = \App\Models\Category::factory()->state(['name' => 'Self Service'])->create();
+        $category_drinks = \App\Models\Category::factory()->state(['name' => 'Refrigerantes', 'company_id' => 1])->create();
+        $category_simple_dishes = \App\Models\Category::factory()->state(['name' => 'Pratos Feitos', 'company_id' => 1])->create();
+        $category_dishes = \App\Models\Category::factory()->state(['name' => 'Self Service', 'company_id' => 1])->create();
 
         $coke = \App\Models\Product::factory(1)->state(
             [
