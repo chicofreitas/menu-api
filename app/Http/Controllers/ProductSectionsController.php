@@ -36,7 +36,7 @@ class ProductSectionsController extends Controller
      */
     public function show($id)
     {
-        $product = Product::find($id)->with('sections.addons')->get();
+        $product = Product::where(['id'=>$id])->with('sections.addons')->get();
 
         return response()->json($product);
     }
