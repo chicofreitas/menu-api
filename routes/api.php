@@ -3,8 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Client\CompanyController;
-
+use App\Http\Controllers\HomeCompanyController;
+use App\Http\Controllers\CompanyProductsController;
+use App\Http\Controllers\MenuProductSectionsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -20,4 +21,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/{slug}', [CompanyController::class, 'index']);
+Route::prefix('catalogo')->group(function(){
+
+    Route::get('/{slug}', HomeCompanyController::class); // home com dados da empresa. (invokable)
+
+    Route::resources([
+        'menu' => CompanyProductsController::class,
+        'product' => CompanyProductSectionsController::class
+    ]);
+});
