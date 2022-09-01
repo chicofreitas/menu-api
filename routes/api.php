@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeCompanyController;
 use App\Http\Controllers\CompanyProductsController;
-use App\Http\Controllers\MenuProductSectionsController;
+use App\Http\Controllers\ProductSectionsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -27,6 +27,6 @@ Route::prefix('catalogo')->group(function(){
 
     Route::resources([
         'menu' => CompanyProductsController::class,
-        'product' => CompanyProductSectionsController::class
+        'product' => ProductSectionsController::class
     ]);
 });
