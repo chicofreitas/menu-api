@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeCompanyController;
 use App\Http\Controllers\CompanyProductsController;
 use App\Http\Controllers\ProductSectionsController;
+use App\Http\Controllers\Api\Auth\RegisterController;
+use App\Http\Controllers\Api\Auth\LoginController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -30,3 +33,7 @@ Route::prefix('catalogo')->group(function(){
         'product' => ProductSectionsController::class
     ]);
 });
+
+Route::post('/register', [RegisterController::class, 'register']);
+Route::post('/login', [LoginController::class, 'login']);
+Route::post('/logout', [LoginController::class, 'logout']);
