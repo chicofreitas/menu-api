@@ -18,6 +18,7 @@ class HomeCompanyController extends Controller
     {
         $company = Company::where(['slug' => $slug])->get(
                 [
+                    'id',
                     'name', 
                     'phone', 
                     'address', 

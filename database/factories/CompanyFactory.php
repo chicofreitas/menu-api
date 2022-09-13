@@ -21,7 +21,8 @@ class CompanyFactory extends Factory
             'name' => fake()->name(),
             'slug' => fake()->name(),
             'social_name' => fake()->name(),
-            'phone' => fake()->phoneNumber()
+            'phone' => '86 99556-5249',//fake()->phoneNumber(),
+            'address' => 'Rua Espírito Santo, 1216. Acarape. Teresina, PI.'
         ];
     }
 }
