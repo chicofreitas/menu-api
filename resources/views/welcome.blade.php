@@ -10,7 +10,7 @@
 		@if(App::environment('local'))
 			@vite('resources/css/app.css')
 		@else 
-			<link rel="stylesheet" href="{{ asset('build/assets/app.e65561f0.css') }}">
+			<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 		@endif
     </head>
     <body>
@@ -294,7 +294,7 @@
 		@if(App::environment('local'))
 			@vite('resources/js/app.js')
 		@else
-			<script type="module" src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
+			<script type="module" src="{{asset('js/app.js')}}"></script>
 		@endif
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
