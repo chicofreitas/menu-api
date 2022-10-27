@@ -7,7 +7,8 @@
         <title>Soucer - Sua fonte de ideias criativas</title>
 
         <!-- Styles -->
-		@vite('resources/css/app.css')
+		<link rel="stylesheet" href="{{ asset('build/assets/app.e65561f0.css') }}">
+		<!-- @vite('resources/css/app.css') -->
 
     </head>
     <body>
@@ -267,8 +268,9 @@
 
 		<!-- JS Implementing Plugins -->
 		
-		@vite('resources/js/app.js')
+		<!-- @vite('resources/js/app.js') -->
 		<!-- <script src="../../assets/vendor/hs-ui/preline.js"></script> -->
+		<script src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
