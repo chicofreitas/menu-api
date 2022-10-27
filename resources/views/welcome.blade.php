@@ -7,8 +7,11 @@
         <title>Soucer - Sua fonte de ideias criativas</title>
 
         <!-- Styles -->
-		<link rel="stylesheet" href="{{ asset('build/assets/app.e65561f0.css') }}">
-		
+		@if(App::environment('local'))
+			@vite('resources/css/app.css')
+		@else 
+			<link rel="stylesheet" href="{{ asset('build/assets/app.e65561f0.css') }}">
+		@endif
     </head>
     <body>
 	
@@ -90,7 +93,7 @@
 		<!-- ========== END HEADER ========== -->
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main">
+		<main id="content" role="main" class="bg-[url('')] bg-no-repeat bg-cover bg-center">
 			<div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="max-w-3xl">
@@ -266,9 +269,11 @@
 		</section>
 
 		<!-- JS Implementing Plugins -->
-		
-		
-		<script type="module" src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
+		@if(App::environment('local'))
+			@vite('resources/js/app.js')
+		@else
+			<script type="module" src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
+		@endif
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
