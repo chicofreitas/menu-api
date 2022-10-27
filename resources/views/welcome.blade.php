@@ -108,12 +108,12 @@
 		<!-- ========== END HEADER ========== -->
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-32 -mt-28">
+		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -sm:mt-28">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="">
 				<!-- <p class="mb-2 text-sm font-semibold text-blue-600">Todo: hero banner here</p> -->
-				<h1 class="block font-bold text-gray-800 sm:py-20 sm:text-7xl dark:text-white">
+				<h1 class="block font-bold text-gray-800 sm:py-20 text-2xl sm:text-7xl text-white dark:text-white">
 					Somos a sua principal fonte de ideias criativas
 				</h1>
 
@@ -121,7 +121,7 @@
 					This example is a quick exercise to illustrate how fixed to top navbar works using Tailwind CSS. As you scroll, it will remain fixed to the top of your browser's viewport.
 				</p> -->
 
-				<div class="mt-5 content-center gap-2 sm:flex-row sm:gap-3 py-10">
+				<div class="mt-5 content-center gap-2 sm:flex-row sm:gap-3 py-2 sm:py-10">
 				
 					<a class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-indigo-500 hover:bg-blue-700 border border-transparent text-white text-md font-medium rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-4 px-10 dark:focus:ring-offset-gray-800" href="https://github.com/htmlstreamofficial/preline/tree/main/examples" target="_blank">
 						<!-- <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
