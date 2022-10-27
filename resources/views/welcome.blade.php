@@ -8,8 +8,7 @@
 
         <!-- Styles -->
 		<link rel="stylesheet" href="{{ asset('build/assets/app.e65561f0.css') }}">
-		<!-- @vite('resources/css/app.css') -->
-
+		
     </head>
     <body>
 	
@@ -95,7 +94,7 @@
 			<div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="max-w-3xl">
-				<p class="mb-2 text-sm font-semibold text-blue-600">Starter Pages &amp; Examples</p>
+				<p class="mb-2 text-sm font-semibold text-blue-600">Todo: hero banner here</p>
 				<h1 class="block text-2xl font-bold text-gray-800 sm:text-3xl dark:text-white">Sticky Header using Tailwind CSS</h1>
 				<p class="mt-2 text-lg text-gray-800 dark:text-gray-400">This example is a quick exercise to illustrate how fixed to top navbar works using Tailwind CSS. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
 				<div class="mt-5 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
@@ -268,8 +267,7 @@
 
 		<!-- JS Implementing Plugins -->
 		
-		<!-- @vite('resources/js/app.js') -->
-		<!-- <script src="../../assets/vendor/hs-ui/preline.js"></script> -->
+		
 		<script src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
