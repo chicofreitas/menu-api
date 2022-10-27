@@ -268,7 +268,7 @@
 		<!-- JS Implementing Plugins -->
 		
 		
-		<script src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
+		<script type="module" src="{{asset('build/assets/app.ed3c36f4.js')}}"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
