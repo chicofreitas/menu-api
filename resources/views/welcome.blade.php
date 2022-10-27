@@ -43,7 +43,7 @@
 						sm:gap-y-0 
 						sm:gap-x-7 
 						sm:mt-0 sm:pl-7
-						text-white
+						text-gray-400
 						dark:text-gray-200">
 					
 					<a class="font-medium text-blue-600 sm:py-6 dark:text-blue-500" href="#" aria-current="page">Landing</a>
