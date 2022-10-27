@@ -7,11 +7,14 @@
         <title>Soucer - Sua fonte de ideias criativas</title>
 
         <!-- Styles -->
-		@if(App::environment('local'))
+		@env('local')
 			@vite('resources/css/app.css')
-		@else 
+		@endenv
+
+		@env('production')
 			<link rel="stylesheet" href="{{ asset('css/app.css') }}">
-		@endif
+		@endenv
+
     </head>
     <body>
 		
@@ -291,11 +294,13 @@
 		</section>
 
 		<!-- JS Implementing Plugins -->
-		@if(App::environment('local'))
+		@env('local')
 			@vite('resources/js/app.js')
-		@else
+		@endenv
+		
+		@env('production')
 			<script type="module" src="{{asset('js/app.js')}}"></script>
-		@endif
+		@endenv
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
