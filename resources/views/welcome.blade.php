@@ -26,14 +26,14 @@
 					<img src="{{asset('images/logoipsum-284.svg')}}" alt="Soucer">
 				</a>
 				<div class="sm:hidden">
-				<button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-gray-800 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
-					<svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-					<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-					</svg>
-					<svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-					</svg>
-				</button>
+					<button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-gray-800 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+						<svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						<svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+						<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+						</svg>
+					</button>
 				</div>
 			</div>
 			<div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
@@ -111,7 +111,7 @@
 		<!-- ========== END HEADER ========== -->
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -sm:mt-28">
+		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -mt-32">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="">
@@ -228,68 +228,95 @@
 			</div>
 		</div>
 
-		<footer class="sm:flex sm:flex-row px-4 py-8 bg-gray-800">
-			<div class="mb-4">
-				<h1 class="text-gray-100 font-bold mb-2">
-					Sitemap
+		<footer class="py-12 content-center bg-slate-900">
+
+			<div class="container mx-auto sm:flex sm:flex-row py-20 border-b border-white">
+			<div class="mb-4 sm:mx-14">
+				<h1 class="text-gray-100 font-bold mb-8">
+					SITEMAP
 				</h1>
 
-				<ul class="px-4 text-gray-400">
-					<li>
+				<ul class="text-gray-200">
+					<li class="mb-4">
 						Home
 					</li>
-					<li>
+					<li class="mb-4">
 						Serviços
 					</li>
-					<li>
-						Soluções
+					<li class="mb-4">
+						Produtos
 					</li>
 				</ul>
 			</div>
+			
+				<div class="mb-4 sm:mx-14">
+					<h1 class="text-gray-100 font-bold mb-8">
+						SERVIÇOS
+					</h1>
 
-			<div class="mb-4">
+					<ul class="text-gray-200">
+						<li class="mb-4">
+							Ciação de Websites
+						</li>
+						<li class="mb-4">
+							Desenvolvimento de Sistemas
+						</li>
+						<li class="mb-4">
+							Análise de Dados
+						</li>
+						<li class="mb-4">
+							Cursos e Palestras
+						</li>
+					</ul>
+				</div>
 
-				<h1 class="text-gray-100 font-bold mb-2">
-					Localização
-				</h1>
+				<div class="mb-4 sm:mx-14">
+					<h1 class="text-gray-100 font-bold mb-8">
+						PRODUTOS
+					</h1>
 
-				<address class="px-4 text-gray-400">
-					<p>Rua Espírito Santo, 1216. Acarape. 64003-750</p>
-					<p>Teresina, PI.</p>
-					<p>+55 86 99556-5249</p>
-				</address>
+					<ul class="text-gray-200">
+						<li class="mb-4">
+							Api Delivery
+						</li>
+						<li class="mb-4">
+							Ecommece
+						</li>
+						<li class="mb-4">
+							App Ecommerce
+						</li>
+						<li class="mb-4">
+							Templates
+						</li>
+					</ul>
+				</div>
 
+				<div class="mb-4 sm:mx-14">
+
+					<h1 class="text-gray-100 font-bold mb-8">
+						FAÇA UMA VISITA
+					</h1>
+
+					<address class="text-gray-200">
+						<p>Rua Espírito Santo, 1216. Acarape. 64003-750</p>
+						<p>Teresina, PI.</p>
+						<p>+55 86 99556-5249</p>
+					</address>
+
+				</div>
+				
+				<div class="mb-4 sm:mx-14">
+					<h1 class="text-gray-100 text-2xl font-bold mb-6">TRABALHE COM A GENTE!</h1>
+					<span class="block border-b border-white py-2 text-2xl text-white">
+						atendimento@soucer.com.br
+					</span>
+				</div>
 			</div>
 			
-			<div>
-				<h1 class="text-gray-100 font-bold mb-2">Nos envie uma mensagem</h1>
 
-				<form action="" method="post">
-
-					<div class="mb-4">
-						<label for="nome" class="block text-gray-500">Nome e Sobrenome</label>
-						<input type="text" name="nome" id="nome" placeholder="Carol Denvers" class="p-2">
-					</div>
-
-					<div class="mb-4">
-						<label for="celular" class="block text-gray-500">Celular*</label>
-						<input type="text" name="celular" id="celular" placeholder="(86) 93939-9898" class="p-2">
-						<span class="text-xs text-gray-400 block mt-2">*Não esqueça de colocar o DDD da sua região.</span>
-					</div>
-
-					<div class="mb-4">
-						<textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-					</div>
-
-					<button class="border px-2 py-4 text-white bg-gray-900">
-						Enviar mensagem
-					</button>
-
-				</form>
-			</div>
 		</footer>
 
-		<section class="px-4 py-2 bg-gray-900 text-white text-sm">
+		<section class="px-32 py-10 bg-gray-900 text-white text-sm text-right">
 			Soucer, todos os direitos reservados.
 		</section>
 
