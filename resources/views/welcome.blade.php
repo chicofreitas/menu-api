@@ -111,7 +111,7 @@
 		<!-- ========== END HEADER ========== -->
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -sm:mt-28">
+		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero-lite.png')] sm:bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -sm:mt-28">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="">
