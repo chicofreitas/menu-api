@@ -1,8 +1,14 @@
 const header = document.getElementById('toggled-header');
-const navItems = document.getElementById('nav-items');
 
+window.menuAPI = {};
+
+menuAPI.headerNotActivated = true;
+/**
+ * 
+ * 
+ */
 const isMobile = () => {
-    return ( ( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) );
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 /**
@@ -14,21 +20,21 @@ const smoothNavbar = () => {
      */
     const scrolled = document.documentElement.scrollTop;
 
+    menuAPI.headerNotActivated = scrolled < 120;
+
     if( !isMobile() ){
-        
-        const toggled = scrolled >= 114 ? true : false;
 
-        if ( toggled ) {
-
-            header.classList.remove('sm:bg-transparent');
-            header.classList.add('sm:py-0');
+        if ( menuAPI.headerNotActivated ) {
             
-        }else{
-
             header.classList.add('sm:bg-transparent');
             header.classList.remove('sm:py-0');
 
+            return menuAPI.headerNotActivated;
+
         }
+            
+        header.classList.remove('sm:bg-transparent');
+        header.classList.add('sm:py-0');
     }
 }
 
