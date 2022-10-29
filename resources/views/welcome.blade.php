@@ -19,7 +19,7 @@
     <body>
 		
 		<!-- ========== HEADER ========== -->
-		<header id="toggled-header" class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-base py-3 dark:border-gray-700 transition-all duration-200">
+		<header id="toggled-header" class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start bg-white sm:bg-transparent sm:flex-nowrap z-50 w-full text-base py-3 dark:border-gray-700 transition-all duration-100">
 			<nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
 			<div class="flex items-center justify-between">
 				<a class="flex-none text-xl font-semibold dark:text-white" href="#" aria-label="Brand">
@@ -111,7 +111,7 @@
 		<!-- ========== END HEADER ========== -->
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 -mt-32">
+		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] bg-no-repeat bg-cover bg-center text-center py-20 sm:py-32 sm:-mt-32">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Page Heading -->
 			<header class="">

@@ -1,7 +1,10 @@
 const header = document.getElementById('toggled-header');
 const navItems = document.getElementById('nav-items');
 
-let toggled = false;
+const isMobile = () => {
+    return ( ( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) );
+}
+
 /**
  * 
  */
@@ -11,20 +14,21 @@ const smoothNavbar = () => {
      */
     const scrolled = document.documentElement.scrollTop;
 
-    if ( (scrolled >= 114) ) {
-
-        if (toggled === false) {
-            header.classList.toggle('bg-white');
-            header.classList.toggle('sm:py-0');
-            navItems.classList.toggle('dark:text-gray-600');
-            toggled = true;
-        }
+    if( !isMobile() ){
         
-    }else{
-        header.classList.remove('bg-white');
-        header.classList.remove('sm:py-0');
-        navItems.classList.remove('dark:text-gray-600');
-        toggled = false;
+        const toggled = scrolled >= 114 ? true : false;
+
+        if ( toggled ) {
+
+            header.classList.remove('sm:bg-transparent');
+            header.classList.add('sm:py-0');
+            
+        }else{
+
+            header.classList.add('sm:bg-transparent');
+            header.classList.remove('sm:py-0');
+
+        }
     }
 }
 
