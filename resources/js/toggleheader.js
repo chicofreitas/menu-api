@@ -1,16 +1,5 @@
 const header = document.getElementById('toggled-header');
-
-window.menuAPI = {};
-
-menuAPI.headerNotActivated = true;
-/**
- * 
- * 
- */
-const isMobile = () => {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
+const navButton = document.getElementById('nav-button');
 /**
  * 
  */
@@ -20,22 +9,17 @@ const smoothNavbar = () => {
      */
     const scrolled = document.documentElement.scrollTop;
 
-    menuAPI.headerNotActivated = scrolled < 120;
+    if (  scrolled < 120 ) {
+        
+        header.classList.remove('bg-white');
+        navButton.classList.add('text-white');
+        return;
 
-    if( !isMobile() ){
-
-        if ( menuAPI.headerNotActivated ) {
-            
-            header.classList.add('sm:bg-transparent');
-            header.classList.remove('sm:py-0');
-
-            return menuAPI.headerNotActivated;
-
-        }
-            
-        header.classList.remove('sm:bg-transparent');
-        header.classList.add('sm:py-0');
     }
+        
+    header.classList.add('bg-white');
+    navButton.classList.remove('text-white');
 }
+
 
 window.addEventListener('scroll', e => smoothNavbar());
