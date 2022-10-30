@@ -104,8 +104,8 @@
 					</p>
 				</div>
 				
-				<div class="my-16 px-8">
-					<div>
+				<div class="my-16">
+					<div class="px-8">
 						Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
 					</div>
 
