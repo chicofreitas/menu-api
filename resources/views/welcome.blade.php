@@ -190,11 +190,11 @@
 			</div>
 		</div>
 
-		<footer class="py-12 px-2 content-center bg-slate-900">
+		<footer class="py-10 px-4 content-center bg-slate-900">
 
 			<div class="container mx-auto sm:flex sm:flex-row py-20 border-b border-white">
 			<div class="mb-4 sm:mx-14">
-				<h1 class="text-gray-100 font-bold mb-8">
+				<h1 class="text-gray-100 font-bold mb-4">
 					SITEMAP
 				</h1>
 
@@ -211,8 +211,8 @@
 				</ul>
 			</div>
 			
-				<div class="mb-4 sm:mx-14">
-					<h1 class="text-gray-100 font-bold mb-8">
+				<div class="mb-6 sm:mx-14">
+					<h1 class="text-gray-100 font-bold mb-4">
 						SERVIÇOS
 					</h1>
 
@@ -232,8 +232,8 @@
 					</ul>
 				</div>
 
-				<div class="mb-4 sm:mx-14">
-					<h1 class="text-gray-100 font-bold mb-8">
+				<div class="mb-6 sm:mx-14">
+					<h1 class="text-gray-100 font-bold mb-4">
 						PRODUTOS
 					</h1>
 
@@ -253,9 +253,9 @@
 					</ul>
 				</div>
 
-				<div class="mb-4 sm:mx-14">
+				<div class="mb-6 sm:mx-14">
 
-					<h1 class="text-gray-100 font-bold mb-8">
+					<h1 class="text-gray-100 font-bold mb-4">
 						FAÇA UMA VISITA
 					</h1>
 
@@ -267,7 +267,7 @@
 
 				</div>
 				
-				<div class="mb-4 sm:mx-14">
+				<div class="sm:mx-14">
 					<h1 class="text-gray-100 text-2xl font-bold mb-6">TRABALHE COM A GENTE!</h1>
 					
 					<p class="inline-block border-b border-gray-400 py-2 text-2xl text-white">
@@ -278,7 +278,7 @@
 
 		</footer>
 
-		<section class="py-5 bg-gray-900 text-white text-sm text-center">
+		<section class="py-5 bg-gray-900 text-white text-sm">
 			Soucer, todos os direitos reservados.
 		</section>
 
