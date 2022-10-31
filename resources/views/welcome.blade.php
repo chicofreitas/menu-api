@@ -193,7 +193,8 @@
 		<footer class="py-10 px-4 content-center bg-slate-900">
 
 			<div class="container mx-auto sm:flex sm:flex-row py-20 border-b border-white">
-			<div class="mb-4 sm:mx-14">
+
+			<div class="mb-10 sm:mx-14">
 				<h1 class="text-gray-100 font-bold mb-4">
 					SITEMAP
 				</h1>
@@ -211,7 +212,7 @@
 				</ul>
 			</div>
 			
-				<div class="mb-6 sm:mx-14">
+				<div class="mb-10 sm:mx-14">
 					<h1 class="text-gray-100 font-bold mb-4">
 						SERVIÇOS
 					</h1>
@@ -232,7 +233,7 @@
 					</ul>
 				</div>
 
-				<div class="mb-6 sm:mx-14">
+				<div class="mb-10 sm:mx-14">
 					<h1 class="text-gray-100 font-bold mb-4">
 						PRODUTOS
 					</h1>
@@ -253,7 +254,7 @@
 					</ul>
 				</div>
 
-				<div class="mb-6 sm:mx-14">
+				<div class="mb-10 sm:mx-14">
 
 					<h1 class="text-gray-100 font-bold mb-4">
 						FAÇA UMA VISITA
