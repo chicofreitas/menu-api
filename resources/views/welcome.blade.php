@@ -15,6 +15,7 @@
 			<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 		@endenv
 
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
 		
@@ -302,7 +303,7 @@
 			gtag('config', 'G-B73TDMXKF5');
 		</script>
 		
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
 		</script>
