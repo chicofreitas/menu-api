@@ -69,7 +69,7 @@
 			<!-- Page Heading -->
 			<header class="py-10 px-8">
 				<!-- <p class="mb-2 text-sm font-semibold text-blue-600">Todo: hero banner here</p> -->
-				<h1 class="block font-bold text-gray-800 mt-20 text-3xl sm:text-7xl text-white dark:text-white">
+				<h1 class="block font-bold text-white mt-20 text-3xl sm:text-7xl text-white">
 					Somos a sua principal fonte de ideias criativas
 				</h1>
 
@@ -89,6 +89,8 @@
 			</div>
 		</main>
 		<!-- ========== END MAIN CONTENT ========== -->
+		
+		
 
 		<div class="bg-white py-16">
 			<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -102,16 +104,6 @@
 					<p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
 						Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
 					</p>
-				</div>
-				
-				<div class="my-16">
-					<div class="px-8">
-						Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
-					</div>
-
-					<div>
-						<img src="https://soucer.com.br/images/pexels-drew-williams-3098620.jpg" alt="Foto de Drew Williams">
-					</div>
 				</div>
 
 				<div class="mt-10">
@@ -169,6 +161,69 @@
 						</div>
 					</dl>
 				</div>
+			</div>
+		</div>
+		
+		<div class="sm:flex sm:flex-row">
+
+			<div class="sm:basis-1/2 px-12 py-16">
+				<h1 class="my-5 text-md text-gray-800 uppercase aos-init aos-animate" data-aos="fade-left" data-aos-delay="150" data-aos-duration="800">
+					UI Desing para Websites
+				</h1>
+
+				<h1 class="my-5 font-bold text-3xl text-gray-800 uppercase aos-init aos-animate" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+					Websites
+				</h1>
+				
+				<div class="my-5 text-xl text-gray-600 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200"  data-aos-duration="800">
+					Websites com interfaces responsivas e amigáveis aos mecanismos de busca. Obtenha a melhor experiência em qualquer dispotivo à sua disposição. 
+				</div>
+				
+				<div class="my-10">
+					<ul class="my-5 text-xl text-gray-800">
+						<li class="my-5">
+							<p class="font-semibold aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+								Layouts responsivos
+							</p>
+
+							<p class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200">
+								Seu público navega no celular, tablet ou notebook? Nossos designs responsivos garantem
+								que o usuário final tenha a melhor experiência independente do dispositivo em suas mãos.
+							</p>
+						</li>
+
+						<li class="my-5">
+							<p class="font-semibold aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+								Velocidade de carregamento
+							</p>
+
+							<p class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200">
+								Nossos sites são construídos de forma que o seu carregamento seja rápido o suficiente para entregar 
+								seu conteúdo em poucos instantes.
+							</p>
+						</li>
+
+						<li class="my-5">
+							<p class="font-semibold aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+								SEO Otimizado
+							</p>
+							
+							<p class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200">
+								Que tal aparecer nos primeiros resultados nas buscas pela Internet?
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<button class="font-semibold text-white border rounded-md bg-violet-800 py-2 px-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
+						Nossos templates
+					</button>
+				</div>
+			</div>
+
+			<div class="sm:basis-1/2">
+				<img class="aos-init aos-animate" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" src="https://soucer.com.br/images/pexels-drew-williams-3098620.jpg" alt="Foto de Drew Williams">
 			</div>
 		</div>
 
@@ -300,5 +355,9 @@
 			gtag('config', 'G-B73TDMXKF5');
 		</script>
 		
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
     </body>
 </html>

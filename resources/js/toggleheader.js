@@ -8,18 +8,12 @@ const smoothNavbar = () => {
      * 
      */
     const scrolled = document.documentElement.scrollTop;
-
     if (  scrolled < 120 ) {
-        
-        header.classList.remove('bg-white');
+        header.classList.remove('bg-white', 'shadow-lg');
         navButton.classList.add('text-white');
         return;
-
     }
-        
-    header.classList.add('bg-white');
+    header.classList.add('bg-white' ,'shadow-lg');
     navButton.classList.remove('text-white');
 }
-
-
 window.addEventListener('scroll', e => smoothNavbar());
