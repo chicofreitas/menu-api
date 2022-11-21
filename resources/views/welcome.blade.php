@@ -146,15 +146,15 @@
 		<div class="sm:flex sm:flex-row">
 
 			<div class="sm:basis-1/2 px-4">
-				<h1 class="my-5 text-md text-gray-800 uppercase aos-init aos-animate" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
+				<h1 class="my-5 text-md text-gray-800 uppercase aos-init" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
 					UI Desing para
 				</h1>
 
-				<h1 class="my-5 font-bold text-3xl text-gray-800 uppercase aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+				<h1 class="my-5 font-bold text-3xl text-gray-800 uppercase" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
 					Websites
 				</h1>
 				
-				<div class="my-5 text-xl text-gray-600 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300"  data-aos-duration="800">
+				<div class="my-5 text-xl text-gray-600" data-aos="fade-right" data-aos-delay="300"  data-aos-duration="800">
 					Websites com interfaces responsivas e amigáveis aos mecanismos de busca. Obtenha a melhor experiência em qualquer dispotivo à sua disposição. 
 				</div>
 				
@@ -196,7 +196,7 @@
 
 				</div>
 
-				<div class="my-4 text-underline aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+				<div class="my-4 text-underline" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
 					<a href="#">Veja nossos templates </a>
 					<!-- <button class="font-semibold text-white border rounded-md bg-violet-800 py-2 px-4">
 						Nossos templates
@@ -204,7 +204,7 @@
 				</div>
 			</div>
 
-			<div class="sm:basis-1/2 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" >
+			<div class="sm:basis-1/2" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" >
 				<img src="https://soucer.com.br/images/pexels-drew-williams-3098620.jpg" alt="Foto de Drew Williams">
 			</div>
 		</div>
