@@ -143,7 +143,7 @@
 			</div>
 		</div>
 		
-		<div class="sm:flex sm:flex-row overflow-auto">
+		<div class="sm:flex sm:flex-row overflow-hidden">
 
 			<div class="sm:basis-1/2 px-4">
 				<h1 class="my-5 text-md text-gray-800 uppercase aos-init" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
