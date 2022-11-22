@@ -14,7 +14,6 @@
 		@env('production')
 			<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 		@endenv
-
 		
     </head>
     <body class="loaded">
