@@ -260,28 +260,24 @@
 		</header>
 
 		<!-- ========== MAIN CONTENT ========== -->
-		<main id="content" role="main" class="bg-[url('https://soucer.com.br/images/bg-hero.png')] static bg-no-repeat bg-cover bg-center content-center text-center py-20 sm:py-32 -mt-32">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<!-- Page Heading -->
-				<header class="py-10 px-8">
-					<!-- <p class="mb-2 text-sm font-semibold text-blue-600">Todo: hero banner here</p> -->
-					<h1 class="block font-bold text-white mt-20 text-3xl sm:text-7xl text-white">
-						Somos a sua principal fonte de ideias criativas
-					</h1>
+		<main id="content" role="main" class="relative h-screen bg-[url('https://soucer.com.br/images/bg-hero.png')] static bg-no-repeat bg-cover bg-center py-20 sm:py-32 text-5xl text-white">
+			
+			<div class="ml-4 mt-72 uppercase text-blue-200">
+				Business Intelligence
+			</div>
 
-					<!-- <p class="mt-2 text-lg text-gray-800 dark:text-gray-400">
-						This example is a quick exercise to illustrate how fixed to top navbar works using Tailwind CSS. As you scroll, it will remain fixed to the top of your browser's viewport.
-					</p> -->
+			<div class="ml-4 text-md">
+				aplicada de forma
+			</div>
 
-					<div class="mt-5 content-center gap-2 sm:flex-row sm:gap-3 sm:py-10">
-					
-						<a class="sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-violet-800 hover:bg-blue-700 border border-transparent text-white text-md font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-2 px-10 dark:focus:ring-offset-gray-800" href="https://github.com/htmlstreamofficial/preline/tree/main/examples" target="_blank">
-							Confira
-						</a>
-						
-					</div>
-				</header>
-				<!-- End Page Heading -->
+			<div class="ml-4 uppercase">
+				inteligente
+			</div>
+
+			<div class="absolute bottom-10 text-center w-full">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-block w-12 h-12 text-gray-600 rounded-full bg-white drop-shadow-md animate-bounce ">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+				</svg>
 			</div>
 		</main>
 		<!-- ========== END MAIN CONTENT ========== -->
