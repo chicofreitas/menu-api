@@ -124,7 +124,7 @@
 			</nav>
 		</header> -->
 
-		<header data-aos="bg-slide-up" data-aos-anchor=".aos-nav" class="fixed top-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-3 sm:py-0">
+		<header data-aos="bg-slide-up" data-aos-anchor=".aos-nav" class="fixed top-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white drop-shadow-lg text-sm py-3 sm:py-0">
 			<nav class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
 				<div class="flex items-center justify-between">
 					<a class="flex-none text-xl font-semibold" href="#" aria-label="Brand">Soucer</a>

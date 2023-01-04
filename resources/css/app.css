@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-[data-aos="bg-slide-up"] {
-    background: transparent;
-    color:aliceblue;
-    transition-property: background;
-}
-
-[data-aos="bg-slide-up"].aos-animate {
-    background:white;
-    color: darkslategrey;
-}
-
-[data-aos="bg-slide-up"].aos-animate nav{
-    color: darkslategrey;
+@media screen and (min-width: 768px){
+    [data-aos="bg-slide-up"] {
+        background: transparent;
+        color:aliceblue;
+        transition-property: background;
+    }
+    
+    [data-aos="bg-slide-up"].aos-animate {
+        background:white;
+        color: darkslategrey;
+    }
+    
+    [data-aos="bg-slide-up"].aos-animate nav{
+        color: darkslategrey;
+    }
 }
