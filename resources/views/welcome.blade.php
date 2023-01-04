@@ -180,49 +180,66 @@
 			</div>
 		</div>
 		
-		<div class="sm:flex sm:flex-row overflow-hidden">
+		<div class="container mx-auto px-44 py-20 flex flex-row gap-20 text-center text-gray-600">
+			
+			<div class="sm:basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+				</svg>
 
-			<div class="sm:basis-1/2 px-4">
-				<h1 class="my-5 text-md text-gray-800 uppercase aos-init" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
-					UI Desing para
-				</h1>
-
-				<h1 class="my-5 font-bold text-3xl text-gray-800 uppercase" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-					Websites
-				</h1>
+				<h1 class="font-semibold text-xl my-5">Business Intellicence</h1>
 				
-				<div class="my-5 text-xl text-gray-600" data-aos="fade-right" data-aos-delay="300"  data-aos-duration="800">
-					Websites com interfaces responsivas e amigáveis aos mecanismos de busca. Obtenha a melhor experiência em qualquer dispotivo à sua disposição. 
-				</div>
-				
-				<div class="my-10 text-gray-900">
-					
-					<div class="flex space-x-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-						<svg class="flex-shrink-0 h-6 w-6 text-blue-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-							<path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-						</svg>
-						<span class="text-gray-800 dark:text-gray-400">
-							<p class="text-semibold">
-								Layouts responsivos
-							</p>
-							Seu público navega no celular, tablet ou notebook? Nossos designs responsivos garantem
-							que o usuário final tenha a melhor experiência independente do dispositivo em suas mãos.
-						</span>
-					</div>
+				<p class="my-4">
+					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
+				</p>
 
-				</div>
+				<a href="#" class="font-bold text-gray-600 underline">
+					Saiba mais 
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+					</svg>
 
-				<div class="my-4 text-underline" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-					<a href="#">Veja nossos templates </a>
-					<!-- <button class="font-semibold text-white border rounded-md bg-violet-800 py-2 px-4">
-						Nossos templates
-					</button> -->
-				</div>
+				</a>
 			</div>
 
-			<div class="sm:basis-1/2" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" >
-				<img src="https://soucer.com.br/images/pexels-drew-williams-3098620.jpg" alt="Foto de Drew Williams">
+			<div class="sm:basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+				</svg>
+
+				<h1 class="font-semibold text-xl my-5">Automação de Sistemas</h1>
+				
+				<p class="my-4">
+					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
+				</p>
+
+				<a href="#" class="font-bold text-gray-600 underline">
+					Saiba mais 
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+					</svg>
+
+				</a>
+			</div>
+
+			<div class="basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+				</svg>
+
+				<h1 class="font-semibold text-xl my-5">Cloud Service</h1>
+				
+				<p class="my-4">
+					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
+				</p>
+
+				<a href="#" class="font-bold text-gray-600 underline">
+					Saiba mais 
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+					</svg>
+
+				</a>
 			</div>
 		</div>
 
@@ -322,7 +339,7 @@
 					<h1 class="text-gray-100 text-2xl font-bold mb-6">TRABALHE COM A GENTE!</h1>
 					
 					<p class="inline-block border-b border-gray-400 py-2 text-2xl text-white">
-						atendimento@soucer.com.br
+						contato@soucer.com.br
 					</p>
 				</div>
 			</div>

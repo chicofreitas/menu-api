@@ -1,21 +1,28 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.b6a0ac6a.js",
+    "file": "assets/app.4b57ca3c.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
-      "_preline.907aa6ab.js"
+      "_preline.eee8515e.js"
+    ],
+    "css": [
+      "assets/app.f85da3e0.css"
     ]
   },
-  "_preline.907aa6ab.js": {
-    "file": "assets/preline.907aa6ab.js",
+  "_preline.eee8515e.js": {
+    "file": "assets/preline.eee8515e.js",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js"
     ]
   },
+  "resources/js/app.css": {
+    "file": "assets/app.f85da3e0.css",
+    "src": "resources/js/app.css"
+  },
   "resources/css/app.css": {
-    "file": "assets/app.bbcbab4b.css",
+    "file": "assets/app.7cd731f6.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
