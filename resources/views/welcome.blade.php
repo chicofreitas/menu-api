@@ -180,20 +180,20 @@
 			</div>
 		</div>
 		
-		<div class="container mx-auto px-44 py-20 flex flex-row gap-20 text-center text-gray-600">
+		<div class="container mx-auto px-2 sm:px-44 md:px-10 py-20 lg:flex md:flex-row md:gap-20 text-center text-gray-600">
 			
-			<div class="sm:basis-1/3">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+			<div class="group my-10 sm:basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 transition duration-300 group-hover:text-violet-500 group-hover:scale-125">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
 				</svg>
 
-				<h1 class="font-semibold text-xl my-5">Business Intellicence</h1>
+				<h1 class="font-semibold text-xl my-5 transition duration-300 group-hover:text-violet-600">Business Intellicence</h1>
 				
-				<p class="my-4">
+				<p class="my-4 transition duration-300 group-hover:text-gray-800">
 					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
 				</p>
 
-				<a href="#" class="font-bold text-gray-600 underline">
+				<a href="#" class="font-bold text-gray-600 underline transition duration-300 group-hover:text-violet-900">
 					Saiba mais 
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -202,18 +202,18 @@
 				</a>
 			</div>
 
-			<div class="sm:basis-1/3">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+			<div class="group my-10 sm:basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 transition duration-300 group-hover:text-violet-500 group-hover:scale-125">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
 				</svg>
 
-				<h1 class="font-semibold text-xl my-5">Automação de Sistemas</h1>
+				<h1 class="font-semibold text-xl my-5 transition duration-300">Automação de Sistemas</h1>
 				
-				<p class="my-4">
+				<p class="my-4  transition duration-300 group-hover:text-gray-800">
 					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
 				</p>
 
-				<a href="#" class="font-bold text-gray-600 underline">
+				<a href="#" class="font-bold text-gray-600 underline transition duration-300 group-hover:text-violet-900">
 					Saiba mais 
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -222,18 +222,18 @@
 				</a>
 			</div>
 
-			<div class="basis-1/3">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 hover:text-violet-500">
+			<div class="group my-10 basis-1/3">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14 text-violet-700 transition duration-300 group-hover:text-violet-500 group-hover:scale-125">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
 				</svg>
 
 				<h1 class="font-semibold text-xl my-5">Cloud Service</h1>
 				
-				<p class="my-4">
+				<p class="my-4  transition duration-300 group-hover:text-gray-800">
 					Soucer é a fonte por onde saem as mais incríveis soluções em tecnologia para o seu negócio. Trabalhamos com o que há de mais moderno em tecnologias para Internet, mobile e ciência de dados para garantir os melhores resultados para sua empresa.
 				</p>
 
-				<a href="#" class="font-bold text-gray-600 underline">
+				<a href="#" class="font-bold text-gray-600 underline transition duration-300 group-hover:text-violet-900">
 					Saiba mais 
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex w-4 h-4">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
